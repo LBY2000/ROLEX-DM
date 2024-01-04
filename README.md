@@ -9,6 +9,6 @@ This repository aims for ROLEX-DM, which is running on the true disaggregated me
 
 <b>3.如果出现rdma设备不能用的情况，记得以sudo的方式执行程序    </b>
 
-<b>4. 如果在node22上运行请将如下替换</b>
-
-https://github.com/LBY2000/XIndex-DM/blob/83cc09c9a693689aea243fd69bdd7f95317e84a1/Sherman/include/Rdma.h#L60C7-L60C7
+<b>4. 如果在node22上运行请将此处代码的port替换为1，可以利用ibstatus查看,node22是port1为active</b>
+https://github.com/LBY2000/ROLEX-DM/blob/571ae997515c7dc1e753b23ba6efc5d4abd92ffe/Sherman/include/Rdma.h#L60
+<b>待补充....</b>
