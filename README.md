@@ -11,9 +11,7 @@ This repository aims for ROLEX-DM, which is running on the true disaggregated me
 
 <b>4. 如果在node22上运行请将如下替换</b>
 
-[XIndex-DM/Sherman/include/Rdma.h at master · LBY2000/XIndex-DM (github.com)#L60](https://github.com/LBY2000/XIndex-DM/blob/master/Sherman/include/Rdma.h)
-
-
+https://github.com/LBY2000/XIndex-DM/blob/master/Sherman/include/Rdma.h#L28
 
 
 
