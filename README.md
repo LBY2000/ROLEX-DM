@@ -11,4 +11,7 @@ This repository aims for ROLEX-DM, which is running on the true disaggregated me
 
 <b>4. 如果在node22上运行请将此处代码的port替换为1，可以利用ibstatus查看,node22是port1为active</b>
 https://github.com/LBY2000/ROLEX-DM/blob/571ae997515c7dc1e753b23ba6efc5d4abd92ffe/Sherman/include/Rdma.h#L60
+
+<b>5. 如果利用dsm->barrier(s)来同步集群内的其他节点的时候，记得修改restartMemc.sh，添加一行echo来删除这个barrier，不然的话会有问题</b>
+
 <b>待补充与待开发....</b>
